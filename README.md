@@ -1,4 +1,4 @@
-# POV_simpletest
+# POV_simpletest repository
 simple persistence of vision test
 
 this is part of the [ortogere project](https://s-light.github.io/ortogere)
