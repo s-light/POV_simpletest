@@ -1,0 +1,18 @@
+<nav>
+    <h3>navigation</h3>
+    {% assign pages_sorted = site.pages | sort: 'url' %}
+
+    <ul>
+    {% for page_entry in pages_sorted %}
+        {% if page_entry.title %}
+            <li
+                {% if page.url == page_entry.url %}class="current"{% endif %}
+            >
+                <a href="{{ page_entry.url | absolute_url }}">{{ page_entry.title }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+
+
+</nav>
