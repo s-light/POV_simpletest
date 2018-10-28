@@ -686,7 +686,8 @@ void update_Boards() {
                 BOARD0,
                 pattern_memory[(uint8_t)pattern_name],
                 pattern_index,
-                0, 65535, 65535);
+                65535, 65535, 65535);
+                // 0, 65535, 65535);
         }
         set_line(BOARD0,  0, 0, 0);
         pos1_flag = false;
@@ -703,7 +704,8 @@ void update_Boards() {
                 BOARD1,
                 pattern_memory[(uint8_t)pattern_name],
                 pattern_index,
-                0, 65535, 65535);
+                65535, 65535, 65535);
+                // 0, 65535, 65535);
         }
         set_line(BOARD1,  0, 0, 0);
         pos2_flag = false;
