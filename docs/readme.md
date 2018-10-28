@@ -50,7 +50,7 @@ based on [Leonardo_wLCD_protobase](https://github.com/s-light/Leonardo_wLCD_prot
 
 added IRLZ34N N-Channel Logic Level Power Mosfet and fast Diode for driving the Motor.
 
-shows the current RPS (revolutions per second) on the lcd.
+shows the current RPS (revolutions per second) on the LCD.
 
 ### SW_simple_pov_TLC5971
 based on [LEDBoard_4x4_16bit_HWTest](https://github.com/s-light/LEDBoard_4x4_16bit_HWTest).

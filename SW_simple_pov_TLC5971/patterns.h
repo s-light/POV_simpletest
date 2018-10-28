@@ -1,6 +1,6 @@
 // lint disable whitespace/comma
-#ifndef POV_SIMPLETEST_SW_SIMPLE_POV_TLC5971_PATTERNS_H_
-#define POV_SIMPLETEST_SW_SIMPLE_POV_TLC5971_PATTERNS_H_
+#ifndef SW_SIMPLE_POV_TLC5971_PATTERNS_H_
+#define SW_SIMPLE_POV_TLC5971_PATTERNS_H_
 
 
 #include <Arduino.h>
@@ -230,4 +230,4 @@ pattern_name_t switch_to_next_pattern() {
 //     return pattern_current;
 // }
 
-#endif  // POV_SIMPLETEST_SW_SIMPLE_POV_TLC5971_PATTERNS_H_
+#endif  // SW_SIMPLE_POV_TLC5971_PATTERNS_H_
